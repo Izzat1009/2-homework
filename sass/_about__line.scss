@@ -1,0 +1,26 @@
+.about__line{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+}
+.about__title{
+    margin: 0 auto;
+    padding: 0 16px;
+    text-align: center;
+
+    h2{
+        font-size: 34px;
+        color: #000000;
+        font-family: "Roboto"sans-serif;
+        font-weight: 400;
+    }
+    p{
+        font-size: 13px;
+        color: #000000;
+        font-family: "Roboto";
+        font-style: italic;
+        font-weight: 400;
+        opacity: 90%;
+    }
+}

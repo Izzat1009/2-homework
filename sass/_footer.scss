@@ -1,0 +1,135 @@
+.footer{
+    max-width: 1357px;
+    height: 345px;
+    margin: 0 auto;
+    padding: 0 16px;
+    margin-top: 50px;
+    background-color: #F9F9F9;
+}
+.footer__all{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.footer__collection{
+    margin-top: 50px;
+list-style: none;
+cursor: pointer;
+    a{
+        font-size: 22px;
+        font-family: "Roboto"sans-serif;
+        font-weight: 400;
+        color: #000;
+        line-height: 24px;
+        text-decoration: none;
+    }
+}
+.new__sletter{
+    margin-right: auto;
+    margin-left: 2%;
+    margin-top: 34px;
+    h2{
+        font-size: 22px;
+        color: #000;
+        font-family: "Roboto"sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    p{
+        color: #A0A0A0;
+        font-size: 14px;
+        font-family: "Roboto"sans-serif;
+        font-weight: 400;
+        max-width: 348px;   
+    }
+
+
+}
+.goup{
+    background-color: #000;
+    width: 82px;
+    height: 82px;
+    display: flex;
+    text-align: center;
+    position: relative;
+ span{
+    color: #fff;
+    width: 22px;
+    height: 16px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-family: "Roboto" sans-serif;
+    font-weight: 400;
+ }
+ p{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 45%;
+    color: #fff;
+    font-family: "Roboto" sans-serif;
+    font-weight: 400;
+    width: 22px;
+    height: 16px;
+ }
+}
+.footer__bar{
+max-width: 1365px;
+background-color: #F9F9F9;
+height: 23px;
+margin: 0 auto;
+padding: 0 16px;
+display: flex;
+justify-content: flex-end;
+}
+.bar__collection{
+    display: flex;
+    list-style: none;
+    gap: 0 30px;
+    a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #707A7F;
+        font-family: "Roboto"sans-serif;
+        font-weight: 400;
+    }
+    }
+@media (max-width:690px) {
+    .footer__collection{
+
+        a{
+            font-size: 13px;
+            line-height: 1px;
+        }
+    }
+    .new__sletter{
+        h2{
+            font-size: 18px;
+        }
+        p{
+            font-size: 12px;
+            max-width: 150px;
+            text-align: center;
+        }
+    }
+    .goup{
+        width: 52px;
+        height: 52px;
+
+        span{
+            font-size: 14px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width:443px) {
+    .bar__collection{
+        gap: 0 30px;
+        a{
+            font-size: 8px;
+        }
+    }
+}

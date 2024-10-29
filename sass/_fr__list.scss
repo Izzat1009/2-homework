@@ -1,0 +1,261 @@
+.fr__list{
+    max-width: 1365px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.fr__grid{
+    max-width: 1365px;
+    display: grid;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.fr__line1{
+margin: 0 auto;
+
+.img{
+transition: .2s;
+}
+.img:hover{
+    transform: scale(1.06);
+}
+.img2{
+    transition: .2s;
+    }
+    .img2:hover{
+        transform: scale(1.06);
+    }
+    .img3{
+        transition: .2s;
+        }
+        .img3:hover{
+            transform: scale(1.06);
+        }
+        .img4{
+            transition: .2s;
+            }
+            .img4:hover{
+                transform: scale(1.06);
+            }
+            .img5{
+                transition: .2s;
+                }
+                .img5:hover{
+                    transform: scale(1.06);
+                }
+                .img6{
+                    transition: .2s;
+                    }
+                    .img6:hover{
+                        transform: scale(1.06);
+                    }
+
+}
+.fr__line2{
+    margin: 0 auto;
+
+    .img7{
+        transition: .2s;
+        }
+        .img7:hover{
+            transform: scale(1.06);
+        }
+        .img8{
+            transition: .2s;
+            }
+            .img8:hover{
+                transform: scale(1.06);
+            }
+            .img9{
+                transition: .2s;
+                }
+                .img9:hover{
+                    transform: scale(1.06);
+                }
+                .img10{
+                    transition: .2s;
+                    }
+                    .img10:hover{
+                        transform: scale(1.06);
+                    }
+                    .img11{
+                        transition: .2s;
+                        }
+                        .img11:hover{
+                            transform: scale(1.06);
+                        }
+                        .img12{
+                            transition: .2s;
+                            }
+                            .img12:hover{
+                                transform: scale(1.06);
+                            }
+}
+.fr__line3{
+    margin: 0 auto;
+    .img13{
+        transition: .2s;
+        }
+        .img13:hover{
+            transform: scale(1.06);
+        }
+        .img14{
+            transition: .2s;
+            }
+            .img14:hover:hover{
+                transform: scale(1.06);
+            }
+            .img15{
+                transition: .2s;
+                }
+                .img15:hover{
+                    transform: scale(1.06);
+                }
+                .img16{
+                    transition: .2s;
+                    }
+                    .img16:hover{
+                        transform: scale(1.06);
+                    }
+                    .img17{
+                        transition: .2s;
+                        }
+                        .img17:hover{
+                            transform: scale(1.06);
+                        }
+                        .img18{
+                            transition: .2s;
+                            }
+                            .img18:hover{
+                                transform: scale(1.06);
+                            }
+}
+.fr__line4{
+    margin: 0 auto;
+
+    .img19{
+        transition: .2s;
+        }
+        .img19:hover{
+            transform: scale(1.06);
+        }
+        .img20{
+            transition: .2s;
+            }
+            .img20:hover{
+                transform: scale(1.06);
+            }
+            .img21{
+                transition: .2s;
+                }
+                .img21:hover{
+                    transform: scale(1.06);
+                }
+                .img22{
+                    transition: .2s;
+                    }
+                    .img22:hover{
+                        transform: scale(1.06);
+                    }
+
+}
+
+@media (max-width: 1301px) {
+    .fr__line1{
+        .img6{
+            display: none;
+        }
+    }
+    .fr__line2{
+        .img12{
+            display: none;
+        }
+    }
+    .fr__line3{
+        .img18{
+            display: none;
+        }
+    }
+}
+@media (max-width: 1092px) {
+    .fr__line1{
+        .img5{
+            display: none;
+        }
+    }
+    .fr__line2{
+        .img11{
+            display: none;
+        }
+    }
+    .fr__line3{
+        .img17{
+            display: none;
+        }
+    }
+}
+@media (max-width: 882px) {
+    .fr__line1{
+        .img4{
+            display: none;
+        }
+    }
+    .fr__line2{
+        .img10{
+            display: none;
+        }
+    }
+    .fr__line3{
+        .img16{
+            display: none;
+        }
+    }
+    .fr__line4{
+        .img22{
+            display: none;
+        }
+    }
+}
+@media (max-width:672px) {
+    .fr__line1{
+        .img3{
+            display: none;
+        }
+    }
+    .fr__line2{
+        .img9{
+            display: none;
+        }
+    }
+    .fr__line3{
+        .img15{
+            display: none;
+        }
+    }
+    .fr__line4{
+        .img21{
+            display: none;
+        }
+    }
+}
+@media (max-width:461px) {
+    .fr__line1{
+        .img2{
+            display: none;
+        }
+    }
+    .fr__line2{
+        .img8{
+            display: none;
+        }
+    }
+    .fr__line3{
+        .img14{
+            display: none;
+        }
+    }
+    .fr__line4{
+        .img20{
+            display: none;
+        }
+    }
+}

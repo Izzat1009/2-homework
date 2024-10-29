@@ -1,0 +1,38 @@
+.hw__list{
+    max-width: 1116.66px;
+    margin:  0 auto;
+    padding:  0 16px;
+    height: 126px;
+    margin-top: 100px;
+}
+.hw__title{
+    text-align: center;
+    margin:  0 auto;
+     padding:  0 16px;
+
+     h2{
+        font-family: "Roboto" sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        color: #000;
+     }
+     p{
+        font-family: "Roboto" sans-serif;
+        font-weight: 400;
+        color: #A0A0A0;
+        line-height: 24px;
+        font-size: 16px;
+        margin: 0 auto;
+     }
+}
+@media (max-width:390px) {
+   .hw__title{
+      h2{
+         font-size: 24px;
+      }
+      p{
+         font-size: 14px;
+         line-height: 18px;
+      }
+   }
+}

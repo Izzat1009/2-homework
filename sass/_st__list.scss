@@ -1,0 +1,46 @@
+.st__list{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+    overflow: hidden;
+}
+.st__title{
+    text-align: center;
+    
+    h2{
+        font-family: "Roboto" sans-serif;
+        font-weight: 400;
+        color: #000;
+        font-size: 43px;
+    }
+
+    p{
+        color: #A0A0A0;
+        font-family: "Roboto" sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    button{
+        font-family: "Roboto" sans-serif;
+        font-weight: 400;
+        color: #000;
+        font-size: 13px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover{
+            transform: scale(1.10);
+            background-color: darkgray;
+            color:  #ffffffbb;
+            width: 150px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 25px;
+            height: 30px;
+        }
+}
+}
